@@ -1,0 +1,65 @@
+header {
+    background-color: pink;
+    padding: 20px 0;
+}
+
+.caja{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(222, 56, 84);
+}  
+
+img{
+    width: auto;
+    height: auto;
+}
+
+.card-img-top {
+    aspect-ratio: 9/10;
+}
+
+
+.icono {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.soc {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.soc i {
+    margin: 0 30px;
+}
+
+i {
+    font-size: 4vw;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: #F1FAEE;
+}
+
+#logo{
+    width: 5vw;
+    height: 7vh;
+}
+
+.card-img-top{
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    object-position: 40%;
+    height: 100%;
+}
